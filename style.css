@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navbar {
+    width: 800px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin: 10px;
+    font-size: 3.5rem;
+}
+
+#nav-search {
+    width: 350px;
+}
+
+#login-button {
+    margin-right: 20px;
+    padding: 3px 20px 3px 20px;
+    background-color:dodgerblue;
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 5px 0px 5px black;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1, .col-2 {
+    flex: 1;
+}
+
+.col-1 {
+    flex: 2;
+}
+
+.word-card {
+    border: solid 2px black;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.card-row {
+    display: flex;
+    align-items: center;
+}
+
+.definition {
+    flex: 2;
+    padding: 20px;
+    font-size: 1.3rem;
+    
+}
+.word-info {
+    padding: 10px;
+    text-align: center;
+}
+
+h2, h3 {
+    padding: 10px;
+    font-size: 2.0rem;
+}
+
+button.likes {
+    margin: 10px;
+    padding: 3px 20px 3px 20px;
+    background-color:gold;
+    box-shadow: 5px 0px 5px black;
+}
+
+.add-word {
+    background-color:darkseagreen;
+    padding: 5px 30px 5px 30px;
+    margin: 10px;
+    box-shadow: 5px 0px 5px black;
+    font-size: 1.2rem;
+}
+
+.word-type {
+    font-size: 1.5rem;
+}

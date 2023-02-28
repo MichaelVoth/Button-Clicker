@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button CLicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="navbar">
+            <h1 class="nav-title">Dojonary</h1>
+            <input type="search" name="search" id="nav-search" placeholder="Search">
+            <button id="login-button" onclick="logout(this)">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <div class="word-card">
+                    <div class="card-row">
+                        <div class="word-info">
+                            <h2>ninja</h2>
+                            <p class="word-type">noun</p>
+                            <p>Plural: <em>ninjas</em></p>
+                            <button class="likes" onclick="alert('Ninja was liked!')">13 Likes</button>
+                        </div>
+                        <div class="definition">
+                            <p>A practictioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjitsu</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="word-card">
+                    <div class="card-row">
+                        <div class="word-info">
+                            <h2>ninja</h2>
+                            <p class="word-type">noun</p>
+                            <p>Plural: <em>ninjas</em></p>
+                            <button class="likes" onclick="alert('Ninja was liked!')">13 Likes</button>
+                        </div>
+                        <div class="definition">
+                            <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a> like
+                                focus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="definition-card word-card">
+                    <h3>Dojonary is defined by YOU</h3>
+                    <button class="add-word" onclick="hide(this)"><h4>Add Definition</h4></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
